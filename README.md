@@ -1,3 +1,5 @@
-# store_tv_player
+# Retail Store TV Content Player
 
-- [Configure the django project](django_project/README.md)
+- [Setting up django project](django_project/README.md)
+
+- [Setting up Android app](android_app/README.md)
