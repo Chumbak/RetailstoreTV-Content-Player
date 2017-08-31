@@ -1,0 +1,5 @@
+cloudinary==1.8.0
+Django==1.11.3
+MySQL-python==1.2.5
+pytz==2017.2
+django-bulk-admin==0.1.1
