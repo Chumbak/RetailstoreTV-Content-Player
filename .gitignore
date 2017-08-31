@@ -81,7 +81,7 @@ celerybeat-schedule
 
 # dotenv
 # uncomment below line before pushing code to your repo
-#.env
+.env
 
 # virtualenv
 .venv
