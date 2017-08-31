@@ -33,3 +33,7 @@ Secrets.GOOGLE_MAPS_API_KEY  // 'abcdefgh'
 ```
 
 Sample `.env` file is included in this project for quick setup. It is recommended to ignore `.env` from git to keep those secrets out of your repo.
+
+## :package: Signed Build
+
+For generating signed Android app go through: https://facebook.github.io/react-native/docs/signed-apk-android.html
