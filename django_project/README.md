@@ -16,7 +16,8 @@ How to use it in the project will be explained later.
 (This section assumes you have pip installed in your system and virtualenv activated.)
 Run the command ```pip install -r requirements/local.txt``` to install the dependencies. Use ```requirements/production.txt``` when you're installing dependencies on production. After this is done, you'll have Django and other dependencies installed in your virtualenv.
 - Set environment
-Create a file `.env` in your settings directory. Copy the contents from `.env.template` to `.env` file. This is where you put the Cloudinary credentials. Fill in all the details.
+Create a file `.env` in your settings directory. Copy the contents from `.env.template` to `.env` file. This is where you put the Cloudinary credentials. Generate random [Django secret key](https://foxrow.com/generating-django-secret-keys). Fill in all the details.
+- Create mysql DB. Update DB name in *settings/local.py* and *settings/production.py*.
 - Run migrations
 To run the migrations, type ```python manage.py migrate``` and press enter.
 - Run your project
